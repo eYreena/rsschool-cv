@@ -30,23 +30,21 @@ Hello, my name is Irina, and this is my second time here to complete the course.
 
 ### Code Example:
 
-#### DESCRIPTION:
+```js
+/**
+ * Complete the solution so that it reverses the string passed into it
+ *
+ * 'world' => 'dlrow'
+ * 'word' => 'drow'
+ */
+function solution(str) {
+    let splitString = str.split("");
+    let reverseArray = splitString.reverse();
+    let joinArray = reverseArray.join("");
 
-Complete the solution so that it reverses the string passed into it.
-
-'world' => 'dlrow'
-'word' => 'drow'
-
----
-
-function solution(str){
-let splitString = str.split('');
-let reverseArray = splitString.reverse();
-let joinArray = reverseArray.join('');
-return joinArray
+    return joinArray;
 }
-
----
+```
 
 ### Experience:
 
