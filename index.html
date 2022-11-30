@@ -4,12 +4,22 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>Document</title>
     </head>
     <body>
         <div class="wraper">
             <header class="header">
+                <div class="logo">
+                    <h1 class="logo__name">Iryna Abrasimova</h1>
+                    <h2 class="logo__role">Junior Frontend Developer</h2>
+                </div>
                 <nav class="navigation">
                     <ul class="navigation__menu">
                         <li class="navigation__menu-item">Contact information</li>
@@ -21,12 +31,26 @@
                         <li class="navigation__menu-item">Languages</li>
                     </ul>
                 </nav>
-                <div class="logo">
-                    <h1 class="logo__name">Iryna Abrasimova</h1>
-                    <h2 class="logo__role">Junior Frontend Developer</h2>
-                </div>
             </header>
-            <main></main>
+            <main class="container">
+                <section class="about-me">
+                    <img class="about-me__foto" src="./img/IMG-4170.jpg" alt="foto" />
+                    <div class="about-me__information">
+                        <h2 class="about-me__header">About Me</h2>
+                        <p class="about-me__text">
+                            Hello, my name is Irina, and this is my second time here to complete the course. Before
+                            starting the course I tried to improve my HTML/CSS skills and started learning JAVA SCRIPT.
+                        </p>
+                    </div>
+                    <div class="hobbies__information">
+                        <h2 class="hobbies__header">Hobbies</h2>
+                        <p class="hobbies__text">
+                            My hobby is needlework. I love to embroider pictures with beads and threads. I also knit
+                            toys. I like to read books. We travel on the weekends.
+                        </p>
+                    </div>
+                </section>
+            </main>
             <footer></footer>
         </div>
     </body>

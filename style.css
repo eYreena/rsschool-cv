@@ -2,32 +2,106 @@ body {
     margin: 0;
 }
 
+:root {
+    --font-family: "Playfair Display", serif;
+}
+
 .wraper {
     width: 100%;
 }
 
 .header {
     width: 1020px;
-    background-color: aqua;
+    background-color: #e6e6fa;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0 40px;
 }
 
 .navigation {
 }
 
 .navigation__menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    margin-top: 20px;
 }
 
 .navigation__menu-item {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
 }
 
 .logo__name {
+    font-family: var(--font-family);
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-.ogo__role {
+.logo__role {
+    font-family: var(--font-family);
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.about-me {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #d8bfd8;
+    padding: 40px 40px;
+}
+
+.about-me__foto {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.about-me__information {
+}
+
+.about-me__header {
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+
+.about-me__text {
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.hobbies {
+}
+
+.hobbies__information {
+}
+
+.hobbies__header {
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+
+.hobbies__text {
+    font-family: var(--font-family);
+    font-size: 20px;
 }
