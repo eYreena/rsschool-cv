@@ -1,3 +1,33 @@
 body {
     margin: 0;
 }
+
+.wraper {
+    width: 100%;
+}
+
+.header {
+    width: 1020px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+}
+
+.navigation__menu {
+}
+
+.navigation__menu-item {
+}
+
+.logo {
+}
+
+.logo__name {
+}
+
+.ogo__role {
+}
