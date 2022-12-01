@@ -74,10 +74,11 @@ body {
 
 .about-me__foto {
     max-width: 300px;
-    margin-right: 20px;
+    margin-right: 85px;
 }
 
 .about-me__information {
+    margin-right: 65px;
 }
 
 .about-me__header {
@@ -88,6 +89,7 @@ body {
 .about-me__text {
     font-family: var(--font-family);
     font-size: 20px;
+    line-height: 2em;
 }
 
 .hobbies {
@@ -104,4 +106,72 @@ body {
 .hobbies__text {
     font-family: var(--font-family);
     font-size: 20px;
+    line-height: 2em;
+}
+
+.contact-education {
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #dda0dd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.contact {
+}
+
+.contact-header {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+
+.contact-menu {
+    padding: 0;
+}
+
+.contact-item {
+    font-family: var(--font-family);
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.contact-text {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.contact-img {
+    width: 60px;
+    height: 60px;
+}
+
+.education {
+    margin-left: 146px;
+}
+
+.education-header {
+    font-family: var(--font-family);
+    margin: 0;
+    font-size: 25px;
+}
+
+.education-menu {
+    padding: 0;
+}
+
+.education-item {
+    font-family: var(--font-family);
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.education-item_header {
+    font-weight: 700;
 }
