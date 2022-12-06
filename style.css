@@ -175,3 +175,114 @@ body {
 .education-item_header {
     font-weight: 700;
 }
+
+.code-skills {
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #ee82ee;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.code-header {
+    font-family: var(--font-family);
+    font-size: 25px;
+    margin: 0;
+}
+
+.code-task {
+    font-family: var(--font-family);
+    font-size: 20px;
+}
+
+.code-block {
+    background-color: #da70d6;
+}
+
+.code-block__inner {
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.skills-language {
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #ff00ff;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills {
+    width: 50%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.skills-header {
+}
+
+.skills-menu {
+}
+
+.skills-item {
+    list-style: url(star.jpg);
+}
+
+.language {
+    width: 50%;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.language-header {
+}
+
+.language-menu {
+}
+
+.langusge-item {
+}
+
+.footer {
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #c71585;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.footer-icon {
+    width: 150px;
+}
+
+.img {
+    max-width: 100%;
+    display: block;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-year {
+}
+
+.github-link {
+}
+
+.footer-link a {
+    font-family: var(--font-family);
+    color: #e6e6fa;
+    text-decoration: none;
+    font-size: 40px;
+}
