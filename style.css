@@ -4,6 +4,7 @@ body {
 
 :root {
     --font-family: "Poppins", sans-serif;
+    --font-family-primyri: "Lobster Two", cursive;
 }
 
 .wraper {
@@ -369,21 +370,37 @@ body {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 25px;
+    position: relative;
 }
 
 .skills-header {
+    position: relative;
+    z-index: 1;
+}
+
+.skills-header::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #e6e6fa;
+    width: 200px;
+    height: 200px;
+    border-radius: 112px;
+    top: 13px;
+    left: 20px;
+    opacity: 0.6;
+    z-index: -1;
 }
 
 .skills-menu {
+    position: relative;
+    z-index: 1;
 }
 
 .skills-item {
-    list-style-type: none;
 }
 
 .skills-item:before {
-    content: #2605;
-    color: #c71585;
 }
 
 .language {
@@ -391,12 +408,32 @@ body {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 25px;
+    position: relative;
+    z-index: 1;
 }
 
 .language-header {
+    position: relative;
+    z-index: 1;
+}
+
+.language-header::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #e6e6fa;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    top: -15px;
+    left: -31px;
+    opacity: 0.3;
+    z-index: -1;
 }
 
 .language-menu {
+    position: relative;
+    z-index: 1;
 }
 
 .langusge-item {
@@ -414,11 +451,8 @@ body {
     align-items: center;
 }
 
-.footer-icon {
+.footer-icon-link {
     width: 150px;
-}
-
-.footer_icon {
     height: 60px;
 }
 
@@ -429,19 +463,16 @@ body {
 
 .footer-logo {
     display: flex;
-    flex-direction: column;
-}
-
-.footer-year {
-    margin: 0;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 .github-link {
 }
 
-.footer-link a {
+.footer-year {
+    margin: 0;
     font-family: var(--font-family);
-    color: #e6e6fa;
-    text-decoration: none;
     font-size: 40px;
+    margin-right: 280px;
 }
